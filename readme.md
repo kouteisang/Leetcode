@@ -25,3 +25,19 @@
 |  title   | link  |type | date |
 |  ----  | ----  | ---- | --- |
 | 316. Remove Duplicate Letters  | https://leetcode-cn.com/problems/remove-duplicate-letters/ | 最小栈 | 2022.03.16 |
+| 402. Remove K Digits  | https://leetcode-cn.com/problems/remove-k-digits/ | 最小栈+思维 | 2022.03.17 |
+
+
+
+## 分治
+
+|  title   | link  |type | date |
+|  ----  | ----  | ---- | --- |
+| 395. Longest Substring with At Least K Repeating Characters  |https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/| 分治or滑动窗口 | 2022.03.17 |
+
+
+## 滑动窗口
+
+|  title   | link  |type | date |
+|  ----  | ----  | ---- | --- |
+| 395. Longest Substring with At Least K Repeating Characters  |https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/| 分治or滑动窗口 | 2022.03.17 |
