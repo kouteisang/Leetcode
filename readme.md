@@ -22,23 +22,23 @@
 
 ## 单调栈
 
-|  title   | link  |type | date |
-|  ----  | ----  | ---- | --- |
-| 316. Remove Duplicate Letters  | https://leetcode-cn.com/problems/remove-duplicate-letters/ | 最小栈 | 2022.03.16 |
-| 402. Remove K Digits  | https://leetcode-cn.com/problems/remove-k-digits/ | 最小栈+思维 | 2022.03.17 |
+|  title   | link  |type | date | reivew |
+|  ----  | ----  | ---- | --- | --- |
+| 316. Remove Duplicate Letters  | https://leetcode-cn.com/problems/remove-duplicate-letters/ | 最小栈 | 2022.03.16 | 2022.3.18 | 
+| 402. Remove K Digits  | https://leetcode-cn.com/problems/remove-k-digits/ | 最小栈+思维 | 2022.03.17 | |
 
 
 
 ## 分治
 
-|  title   | link  |type | date |
-|  ----  | ----  | ---- | --- |
-| 395. Longest Substring with At Least K Repeating Characters  |https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/| 分治or滑动窗口 | 2022.03.17 |
+|  title   | link  |type | date | reivew |
+|  ----  | ----  | ---- | --- | --- |
+| 395. Longest Substring with At Least K Repeating Characters  |https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/| 分治or滑动窗口 | 2022.03.17 | 2022.03.18|
 
 
 ## 滑动窗口
 
-|  title   | link  |type | date |
-|  ----  | ----  | ---- | --- |
-| 395. Longest Substring with At Least K Repeating Characters  |https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/| 分治or滑动窗口 | 2022.03.17 |
+|  title   | link  |type | date | reivew |
+|  ----  | ----  | ---- | --- | --- |
+| 395. Longest Substring with At Least K Repeating Characters  |https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/| 分治or滑动窗口 | 2022.03.17 | 2022.03.18 |
 | 424. Longest Repeating Character Replacement  |https://leetcode-cn.com/problems/longest-repeating-character-replacement/| 滑动窗口经典题目 | 2022.03.18 |

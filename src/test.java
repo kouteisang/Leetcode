@@ -1,40 +1,33 @@
+import java.util.Stack;
+
 public class test {
     public static void main(String[] args) {
-        String s = "aaabb";
-        int k = 3;
-        if(k == 1) System.out.println(s.length());
-        int res = longestSubstring(s, 3);
-        System.out.println(res);
-    }
-    public static int longestSubstring(String s, int k) {
-        if(k == 1) return s.length();
-        int len = s.length()-1;
-        return dfs(0, len, k, s);
-    }
 
-    public static int dfs(int left, int right, int k, String s){
-        if(right <= left) return 0;
-        if(right - left + 1 < k) return 0;
-        int[] cnt = new int[26];
-        for(int i = left; i <= right; i ++){
-            cnt[s.charAt(i) - 'a'] ++;
+        String ans = removeDuplicateLetters("bcabc");
+        System.out.println(ans);
+
+    }
+    public static String removeDuplicateLetters(String s) {
+        int len = s.length();
+        int cnt[] = new int[26];
+        for(int i = 0; i < len; i ++){
+            cnt[s.charAt(i)-'a'] ++;
         }
-        int pos = -1;
-        for(int i = left; i <= right; i ++){
-            if(cnt[s.charAt(i) - 'a'] < k){
-                pos = i;
-                break;
+        Stack<Character> stk = new Stack();
+        for(int i = 0; i < len; i ++){
+            cnt[s.charAt(i) - 'a'] --;
+            if(stk.contains(s.charAt(i)))
+                continue;
+            while(!stk.isEmpty() && s.charAt(i) < stk.peek() && cnt[stk.peek()-'a'] > 0){
+                stk.pop();
             }
+            stk.push(s.charAt(i));
         }
-        if(pos == -1){
-            return right - left + 1;
+        StringBuilder sb = new StringBuilder();
+        while(!stk.isEmpty()){
+            sb.append(stk.pop());
         }
-        while(left < pos && s.charAt(left) == s.charAt(pos)){
-            left ++;
-        }
-        while(right > pos && s.charAt(right) == s.charAt(pos)){
-            right --;
-        }
-        return Math.max(dfs(left, pos-1, k, s), dfs(pos+1, right, k, s));
+        sb = sb.reverse();
+        return sb.toString();
     }
 }
