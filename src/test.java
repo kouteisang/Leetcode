@@ -1,33 +1,50 @@
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
+
+class Node{
+    int count;
+    String s;
+    public Node(String s, int count){
+        this.count = count;
+        this.s = s;
+    }
+}
+
+
 
 public class test {
     public static void main(String[] args) {
-
-        String ans = removeDuplicateLetters("bcabc");
-        System.out.println(ans);
+        minMutation("AACCGGTT", "AACCGGTA", new String[]{"AACCGGTA"});
 
     }
-    public static String removeDuplicateLetters(String s) {
-        int len = s.length();
-        int cnt[] = new int[26];
-        for(int i = 0; i < len; i ++){
-            cnt[s.charAt(i)-'a'] ++;
-        }
-        Stack<Character> stk = new Stack();
-        for(int i = 0; i < len; i ++){
-            cnt[s.charAt(i) - 'a'] --;
-            if(stk.contains(s.charAt(i)))
-                continue;
-            while(!stk.isEmpty() && s.charAt(i) < stk.peek() && cnt[stk.peek()-'a'] > 0){
-                stk.pop();
+
+    public static int minMutation(String start, String end, String[] bank) {
+        char[] replace = {'A', 'G', 'C', 'T'};
+        Queue<Node> queue = new LinkedList();
+        queue.offer(new Node(start, 0));
+        while(!queue.isEmpty()){
+            Node node = queue.poll();
+            StringBuilder s = new StringBuilder(node.s);
+            int count = node.count;
+            if(s.toString().equals(end)){
+                return count;
             }
-            stk.push(s.charAt(i));
+            int len = s.length();
+            for(int i = 0; i < len; i ++){
+                char origin = s.charAt(i);
+                for(int j = 0; j < 4; j ++){
+                    if(replace[j] != origin){
+                        s.setCharAt(i, replace[j]);
+                        if(Arrays.asList(bank).contains(s.toString())){
+                            queue.offer(new Node(s.toString(), count+1));
+                        }
+                    }
+                }
+                s.setCharAt(i, origin);
+            }
         }
-        StringBuilder sb = new StringBuilder();
-        while(!stk.isEmpty()){
-            sb.append(stk.pop());
-        }
-        sb = sb.reverse();
-        return sb.toString();
+        return -1;
     }
 }
