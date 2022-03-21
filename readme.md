@@ -51,3 +51,25 @@
 |  title   | link  |type | date | review |
 |  ----  | ----  | ---- | --- | --- |
 | 433. Minimum Genetic Mutation  |https://leetcode-cn.com/problems/minimum-genetic-mutation/| BFS模板题 | 2022.03.19 | 2022.03.20 |
+| 133. Clone Graph  |https://leetcode-cn.com/problems/clone-graph/| BFS+Hash+图 | 2022.03.21 |  |
+
+
+## DFS
+
+|  title   | link  |type | date | review |
+|  ----  | ----  | ---- | --- | --- |
+| 140. Word Break II  |https://leetcode-cn.com/problems/word-break-ii/| DFS | 2022.03.21 | |
+
+
+## 链表
+
+|  title   | link  |type | date | review |
+|  ----  | ----  | ---- | --- | --- |
+| 138. Copy List with Random Pointer  |https://leetcode-cn.com/problems/copy-list-with-random-pointer/| 链表操作模板题目 | 2022.03.21 |  |
+
+
+## dp
+
+|  title   | link  |type | date | review |
+|  ----  | ----  | ---- | --- | --- |
+| 139. Word Break |https://leetcode-cn.com/problems/word-break/| dp | 2022.03.21 |  |

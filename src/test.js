@@ -1,25 +1,35 @@
-var characterReplacement = function(s, k) {
-    let chs = [...s];
-    let len = chs.length;
-    let left = 0;
-    let right = 0;
-    let count = new Array(26).fill(0);
-    let ans = 0;
-    while(right < len){
-        let chNum = chs[right].charCodeAt() - 'A'.charCodeAt();
-        count[chNum] ++;
-        let sum = right - left + 1;
-        let maxCount = Math.max(...count);
-        while(sum - maxCount > k){
-            count[chs[left].charCodeAt() - 'A'.charCodeAt()] --;
-            left ++;
-            maxCount = Math.max(...count);
-            sum = right - left + 1;
+let res = [];
+const dfs = (pos, wordDict, dp, ans, s) => {
+    let len = s.length;
+    if(pos == len + 1){
+        if(dp[len] == true){
+            res.push(ans.join(" "));
         }
-        ans = Math.max(ans, right - left + 1);
-        right ++;
+        return ;
     }
-    return ans;
-};
+    let wordDictLen = wordDict.length;
+    for(let i = pos; i < len; i ++){
+        for(let j = 0; j < wordDictLen; j ++){
+            if(i - wordDict[j].length >= 0){
+                if(s.substring(i-wordDict[j].length, i) == wordDict[j] && dp[i-wordDict[j].length]){
+                    dp[i] = true;
+                    ans.push(wordDict[j]);
+                    dfs(i+1, wordDict, dp, ans, s);
+                    dp[i] = false;
+                    ans.pop();
+                    dp[i] = false;
+                }
+            }
+        }
+    }
+}
 
-characterReplacement("AABABBA", 1);
+var wordBreak = function(s, wordDict) {
+    res = []
+    let chs = [...s];
+    let dp = new Array(chs.length + 1).fill(false);
+    dp[0] = true;
+    dfs(0, wordDict, dp, [], s);
+    return res;
+};
+wordBreak("catsanddog", ["cat","cats","and","sand","dog"]);

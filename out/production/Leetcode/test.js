@@ -1,25 +1,32 @@
-var characterReplacement = function(s, k) {
-    let chs = [...s];
-    let len = chs.length;
-    let left = 0;
-    let right = 0;
-    let count = new Array(26).fill(0);
-    let ans = 0;
-    while(right < len){
-        let chNum = chs[right].charCodeAt() - 'A'.charCodeAt();
-        count[chNum] ++;
-        let sum = right - left + 1;
-        let maxCount = Math.max(...count);
-        while(sum - maxCount > k){
-            count[chs[left].charCodeAt() - 'A'.charCodeAt()] --;
-            left ++;
-            maxCount = Math.max(...count);
-            sum = right - left + 1;
-        }
-        ans = Math.max(ans, right - left + 1);
-        right ++;
-    }
-    return ans;
-};
+// object.is 判断两个数值完全相等
+console.log(Object.is(111,111))
+// object.assign对象的合并
+const config1 = {
+    host:'localhost',
+    port: 3306,
+    name:'root',
+    pass:'root',
+    text:"woyehaha"
+}
 
-characterReplacement("AABABBA", 1);
+const config2 = {
+    host:'http://localhost',
+    port: 3307,
+    name:'cheng',
+    pass:'cheng',
+    note:'haha'
+}
+console.log( Object.assign(config1, config2) )
+
+
+//Object.setPrototypeOf 设置原型对象
+const school = {
+    name:"尚硅谷"
+}
+
+const cities = {
+    xiaoqu:['北京','上海','深圳']
+}
+
+Object.setPrototypeOf(school, cities)
+console.log(school)
