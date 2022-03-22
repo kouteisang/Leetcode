@@ -43,7 +43,7 @@
 | 395. Longest Substring with At Least K Repeating Characters  |https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/| 分治or滑动窗口 | 2022.03.17 | 2022.03.18 |
 | 424. Longest Repeating Character Replacement  |https://leetcode-cn.com/problems/longest-repeating-character-replacement/| 滑动窗口经典题目 | 2022.03.18 | 2022.03.20 |
 | 567. Permutation in String |https://leetcode-cn.com/problems/permutation-in-string/| 滑动窗口+思维 | 2022.03.19 | 2022.03.20 |
-| 1004. Max Consecutive Ones III | https://leetcode-cn.com/problems/max-consecutive-ones-iii/ | 滑动窗口模板题 | 2022.03.20 |  |
+| 1004. Max Consecutive Ones III | https://leetcode-cn.com/problems/max-consecutive-ones-iii/ | 滑动窗口模板题 | 2022.03.20 | 2022.03.21 |
 
 
 ## BFS
@@ -58,7 +58,7 @@
 
 |  title   | link  |type | date | review |
 |  ----  | ----  | ---- | --- | --- |
-| 140. Word Break II  |https://leetcode-cn.com/problems/word-break-ii/| DFS | 2022.03.21 | |
+| 140. Word Break II  |https://leetcode-cn.com/problems/word-break-ii/| DFS | 2022.03.21 | 2022.03.22 |
 
 
 ## 链表
@@ -72,4 +72,4 @@
 
 |  title   | link  |type | date | review |
 |  ----  | ----  | ---- | --- | --- |
-| 139. Word Break |https://leetcode-cn.com/problems/word-break/| dp | 2022.03.21 |  |
+| 139. Word Break |https://leetcode-cn.com/problems/word-break/| dp | 2022.03.21 | 2022.03.22 |
