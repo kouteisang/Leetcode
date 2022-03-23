@@ -1,32 +1,48 @@
-// object.is 判断两个数值完全相等
-console.log(Object.is(111,111))
-// object.assign对象的合并
-const config1 = {
-    host:'localhost',
-    port: 3306,
-    name:'root',
-    pass:'root',
-    text:"woyehaha"
+class Node{
+    val
+    neighbors
+    constructor(val, neighbors) {
+        this.val = val;
+        this.neighbors = neighbors;
+    }
 }
 
-const config2 = {
-    host:'http://localhost',
-    port: 3307,
-    name:'cheng',
-    pass:'cheng',
-    note:'haha'
-}
-console.log( Object.assign(config1, config2) )
 
+one = new Node(1,[])
+two = new Node(2, [])
+three = new Node(3, [])
+four = new Node(4, [])
 
-//Object.setPrototypeOf 设置原型对象
-const school = {
-    name:"尚硅谷"
-}
+one.neighbors.push(three)
+one.neighbors.push(four)
 
-const cities = {
-    xiaoqu:['北京','上海','深圳']
-}
+two.neighbors.push(three)
+two.neighbors.push(four)
 
-Object.setPrototypeOf(school, cities)
-console.log(school)
+three.neighbors.push(one)
+three.neighbors.push(two)
+
+four.neighbors.push(one)
+four.neighbors.push(two)
+
+var cloneGraph = function(node) {
+    if(node == null) return null;
+    let queue = [];
+    queue.push(node);
+    let map = new Map();
+    map.set(node, new Node(node.val, []));
+    while(queue.length > 0){
+        let top = queue.shift();
+        let neighbors = top.neighbors;
+        for(let i = 0; i < neighbors.length; i ++){
+            if(!map.has(neighbors[i])){
+                queue.push(neighbors[i]);
+                map.set(neighbors[i], new Node(neighbors[i].val, []));
+            }
+            top.neighbors.push(map.get(neighbors[i]));
+        }
+    }
+    return map.get(node);
+};
+
+cloneGraph(one);

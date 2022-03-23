@@ -51,7 +51,7 @@
 |  title   | link  |type | date | review |
 |  ----  | ----  | ---- | --- | --- |
 | 433. Minimum Genetic Mutation  |https://leetcode-cn.com/problems/minimum-genetic-mutation/| BFS模板题 | 2022.03.19 | 2022.03.20 |
-| 133. Clone Graph  |https://leetcode-cn.com/problems/clone-graph/| BFS+Hash+图 | 2022.03.21 |  |
+| 133. Clone Graph  |https://leetcode-cn.com/problems/clone-graph/| BFS+Hash+图 | 2022.03.21 | 2022.03.23 |
 
 
 ## DFS
@@ -65,7 +65,7 @@
 
 |  title   | link  |type | date | review |
 |  ----  | ----  | ---- | --- | --- |
-| 138. Copy List with Random Pointer  |https://leetcode-cn.com/problems/copy-list-with-random-pointer/| 链表操作模板题目 | 2022.03.21 |  |
+| 138. Copy List with Random Pointer  |https://leetcode-cn.com/problems/copy-list-with-random-pointer/| 链表操作模板题目 | 2022.03.21 | 2022.03.23 |
 
 
 ## dp
@@ -73,3 +73,16 @@
 |  title   | link  |type | date | review |
 |  ----  | ----  | ---- | --- | --- |
 | 139. Word Break |https://leetcode-cn.com/problems/word-break/| dp | 2022.03.21 | 2022.03.22 |
+
+## 数学
+
+|  title   | link  |type | date | review |
+|  ----  | ----  | ---- | --- | --- |
+| 264. Ugly Number II |https://leetcode-cn.com/problems/ugly-number-ii/| Math | 2022.03.23 | |
+| 313. Super Ugly Number |https://leetcode-cn.com/problems/super-ugly-number/| Math | 2022.03.23 | |
+
+## Hash
+
+|  title   | link  |type | date | review |
+|  ----  | ----  | ---- | --- | --- |
+| 398. Random Pick Index |https://leetcode-cn.com/problems/random-pick-index/| Hash + random（蓄水池采样,没搞懂） | 2022.03.23 | |

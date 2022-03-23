@@ -1,29 +1,48 @@
-let res = []
-
-const dfs = (index, chs, wordDict, t, s) => {
-    if(index == chs.length){
-        res.push(t.join(" "));
-        return ;
-    }
-    let len = chs.length;
-    for(let i = index; i < len; i ++){
-        for(let j = 0; j < wordDict.length; j ++){
-            if(i + wordDict[j].length <= len){
-                let sub = s.substring(i, i + wordDict[j].length);
-                if(sub == wordDict[j]){
-                    t.push(wordDict[j]);
-                    dfs(i+wordDict[j].length, chs, wordDict, t, s);
-                    t.pop();
-                }
-            }
-        }
+class Node{
+    val
+    neighbors
+    constructor(val, neighbors) {
+        this.val = val;
+        this.neighbors = neighbors;
     }
 }
 
-var wordBreak = function(s, wordDict) {
-    res = []
-    let chs = [...s]
-    let t = []
-    dfs(0, chs, wordDict, t, s);
-    return t;
+
+one = new Node(1,[])
+two = new Node(2, [])
+three = new Node(3, [])
+four = new Node(4, [])
+
+one.neighbors.push(three)
+one.neighbors.push(four)
+
+two.neighbors.push(three)
+two.neighbors.push(four)
+
+three.neighbors.push(one)
+three.neighbors.push(two)
+
+four.neighbors.push(one)
+four.neighbors.push(two)
+
+var cloneGraph = function(node) {
+    if(node == null) return null;
+    let queue = [];
+    queue.push(node);
+    let map = new Map();
+    map.set(node, new Node(node.val, []));
+    while(queue.length > 0){
+        let top = queue.shift();
+        let neighbors = top.neighbors;
+        for(let i = 0; i < neighbors.length; i ++){
+            if(!map.has(neighbors[i])){
+                queue.push(neighbors[i]);
+                map.set(neighbors[i], new Node(neighbors[i].val, []));
+            }
+            top.neighbors.push(map.get(neighbors[i]));
+        }
+    }
+    return map.get(node);
 };
+
+cloneGraph(one);
