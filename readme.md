@@ -60,6 +60,7 @@
 |  ----  | ----  | ---- | --- | --- |
 | 140. Word Break II  |https://leetcode-cn.com/problems/word-break-ii/| DFS | 2022.03.21 | 2022.03.22 |
 | 491. Increasing Subsequences  |https://leetcode-cn.com/problems/increasing-subsequences/| DFS+去重 | 2022.03.30 |  |
+| 652. Find Duplicate Subtrees  |https://leetcode-cn.com/problems/find-duplicate-subtrees/| DFS+Hash+树序列化 | 2022.03.31 |  |
 
 
 ## 链表
@@ -95,5 +96,15 @@
 
 |  title   | link  |type | date | review |
 |  ----  | ----  | ---- | --- | --- |
-| 18. 4Sum |https://leetcode-cn.com/problems/4sum//| 四指针 | 2022.03.24 | |
+| 18. 4Sum |https://leetcode-cn.com/problems/4sum/| 四指针 | 2022.03.24 | |
 
+## 堆
+|  title   | link  |type | date | review |
+|  ----  | ----  | ---- | --- | --- |
+| 347. Top K Frequent Elements |https://leetcode-cn.com/problems/top-k-frequent-elements/| 小顶堆 | 2022.03.31 | |
+
+## 贪心
+|  title   | link  |type | date | review |
+|  ----  | ----  | ---- | --- | --- |
+| 659. Split Array into Consecutive Subsequences
+|https://leetcode-cn.com/problems/split-array-into-consecutive-subsequences/| 贪心思维 | 2022.03.31 | |
