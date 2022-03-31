@@ -59,6 +59,7 @@
 |  title   | link  |type | date | review |
 |  ----  | ----  | ---- | --- | --- |
 | 140. Word Break II  |https://leetcode-cn.com/problems/word-break-ii/| DFS | 2022.03.21 | 2022.03.22 |
+| 491. Increasing Subsequences  |https://leetcode-cn.com/problems/increasing-subsequences/| DFS+去重 | 2022.03.30 |  |
 
 
 ## 链表
@@ -86,3 +87,13 @@
 |  title   | link  |type | date | review |
 |  ----  | ----  | ---- | --- | --- |
 | 398. Random Pick Index |https://leetcode-cn.com/problems/random-pick-index/| Hash + random（蓄水池采样,没搞懂） | 2022.03.23 | |
+| 454. 4Sum II |https://leetcode-cn.com/problems/4sum-ii/| Hash | 2022.03.24 | |
+| 648. Replace Words |https://leetcode-cn.com/problems/replace-words/| Hash+字典树 | 2022.03.31 | |
+
+
+## 双指针/多指针
+
+|  title   | link  |type | date | review |
+|  ----  | ----  | ---- | --- | --- |
+| 18. 4Sum |https://leetcode-cn.com/problems/4sum//| 四指针 | 2022.03.24 | |
+
