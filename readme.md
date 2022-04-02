@@ -25,7 +25,7 @@
 |  title   | link  |type | date | review |
 |  ----  | ----  | ---- | --- | --- |
 | 316. Remove Duplicate Letters  | https://leetcode-cn.com/problems/remove-duplicate-letters/ | 最小栈 | 2022.03.16 | 2022.3.18 | 
-| 402. Remove K Digits  | https://leetcode-cn.com/problems/remove-k-digits/ | 最小栈+思维 | 2022.03.17 | |
+| 402. Remove K Digits  | https://leetcode-cn.com/problems/remove-k-digits/ | 最小栈+思维 | 2022.03.17 | 2022.04.02 |
 
 
 
@@ -59,8 +59,8 @@
 |  title   | link  |type | date | review |
 |  ----  | ----  | ---- | --- | --- |
 | 140. Word Break II  |https://leetcode-cn.com/problems/word-break-ii/| DFS | 2022.03.21 | 2022.03.22 |
-| 491. Increasing Subsequences  |https://leetcode-cn.com/problems/increasing-subsequences/| DFS+去重 | 2022.03.30 |  |
-| 652. Find Duplicate Subtrees  |https://leetcode-cn.com/problems/find-duplicate-subtrees/| DFS+Hash+树序列化 | 2022.03.31 |  |
+| 491. Increasing Subsequences  |https://leetcode-cn.com/problems/increasing-subsequences/| DFS+去重 | 2022.03.30 | 2022.04.02 |
+| 652. Find Duplicate Subtrees  |https://leetcode-cn.com/problems/find-duplicate-subtrees/| DFS+Hash+树序列化 | 2022.03.31 | 2022.04.02 |
 
 
 ## 链表
@@ -80,23 +80,23 @@
 
 |  title   | link  |type | date | review |
 |  ----  | ----  | ---- | --- | --- |
-| 264. Ugly Number II |https://leetcode-cn.com/problems/ugly-number-ii/| Math | 2022.03.23 | |
-| 313. Super Ugly Number |https://leetcode-cn.com/problems/super-ugly-number/| Math | 2022.03.23 | |
+| 264. Ugly Number II |https://leetcode-cn.com/problems/ugly-number-ii/| Math | 2022.03.23 | 2022.04.02 |
+| 313. Super Ugly Number |https://leetcode-cn.com/problems/super-ugly-number/| Math | 2022.03.23 | 2022.04.02 |
 
 ## Hash
 
 |  title   | link  |type | date | review |
 |  ----  | ----  | ---- | --- | --- |
 | 398. Random Pick Index |https://leetcode-cn.com/problems/random-pick-index/| Hash + random（蓄水池采样,没搞懂） | 2022.03.23 | |
-| 454. 4Sum II |https://leetcode-cn.com/problems/4sum-ii/| Hash | 2022.03.24 | |
-| 648. Replace Words |https://leetcode-cn.com/problems/replace-words/| Hash+字典树 | 2022.03.31 | |
+| 454. 4Sum II |https://leetcode-cn.com/problems/4sum-ii/| Hash | 2022.03.24 | 2033.04.02 |
+| 648. Replace Words |https://leetcode-cn.com/problems/replace-words/| Hash+字典树 | 2022.03.31 | 2022.04.02 |
 
 
 ## 双指针/多指针
 
 |  title   | link  |type | date | review |
 |  ----  | ----  | ---- | --- | --- |
-| 18. 4Sum |https://leetcode-cn.com/problems/4sum/| 四指针 | 2022.03.24 | |
+| 18. 4Sum |https://leetcode-cn.com/problems/4sum/| 四指针 | 2022.03.24 | 2022.04.02 |
 
 ## 堆
 |  title   | link  |type | date | review |
@@ -106,5 +106,4 @@
 ## 贪心
 |  title   | link  |type | date | review |
 |  ----  | ----  | ---- | --- | --- |
-| 659. Split Array into Consecutive Subsequences
-|https://leetcode-cn.com/problems/split-array-into-consecutive-subsequences/| 贪心思维 | 2022.03.31 | |
+| 659. Split Array into Consecutive Subsequences |https://leetcode-cn.com/problems/split-array-into-consecutive-subsequences/| 贪心思维 | 2022.03.31 | 2022.04.02 |
