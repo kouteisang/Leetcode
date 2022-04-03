@@ -101,7 +101,8 @@
 ## 堆
 |  title   | link  |type | date | review |
 |  ----  | ----  | ---- | --- | --- |
-| 347. Top K Frequent Elements |https://leetcode-cn.com/problems/top-k-frequent-elements/| 小顶堆 | 2022.03.31 | |
+| 347. Top K Frequent Elements |https://leetcode-cn.com/problems/top-k-frequent-elements/| 小顶堆 | 2022.03.31 | 2022.04.03 |
+| 692. Top K Frequent Words |https://leetcode-cn.com/problems/top-k-frequent-words/| 小顶堆 | 2022.04.03 | |
 
 ## 贪心
 |  title   | link  |type | date | review |
