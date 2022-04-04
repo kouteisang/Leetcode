@@ -75,6 +75,8 @@
 |  title   | link  |type | date | review |
 |  ----  | ----  | ---- | --- | --- |
 | 139. Word Break |https://leetcode-cn.com/problems/word-break/| dp | 2022.03.21 | 2022.03.22 |
+| 5. Longest Palindromic Substring | https://leetcode-cn.com/problems/longest-palindromic-substring/ | dp | 2022.04.04 |  |
+| 22. Generate Parentheses | https://leetcode-cn.com/problems/generate-parentheses/ | dp | 2022.04.04 |  |
 
 ## 数学
 
@@ -108,3 +110,4 @@
 |  title   | link  |type | date | review |
 |  ----  | ----  | ---- | --- | --- |
 | 659. Split Array into Consecutive Subsequences |https://leetcode-cn.com/problems/split-array-into-consecutive-subsequences/| 贪心思维 | 2022.03.31 | 2022.04.02 |
+| 55. Jump Game | https://leetcode-cn.com/problems/jump-game/ | 贪心思维 | 2022.04.04 | |
