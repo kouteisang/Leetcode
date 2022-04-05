@@ -34,7 +34,7 @@
 |  title   | link  |type | date | review |
 |  ----  | ----  | ---- | --- | --- |
 | 395. Longest Substring with At Least K Repeating Characters  |https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/| 分治or滑动窗口 | 2022.03.17 | 2022.03.18|
-
+| 53. Maximum Subarray |https://leetcode-cn.com/problems/maximum-subarray/| 分治orDP | 2022.04.05 | |
 
 ## 滑动窗口
 
@@ -77,6 +77,7 @@
 | 139. Word Break |https://leetcode-cn.com/problems/word-break/| dp | 2022.03.21 | 2022.03.22 |
 | 5. Longest Palindromic Substring | https://leetcode-cn.com/problems/longest-palindromic-substring/ | dp | 2022.04.04 |  |
 | 22. Generate Parentheses | https://leetcode-cn.com/problems/generate-parentheses/ | dp | 2022.04.04 |  |
+| 152. Maximum Product Subarray | https://leetcode-cn.com/problems/maximum-product-subarray/ | dp | 2022.04.05 |  |
 
 ## 数学
 
@@ -99,6 +100,8 @@
 |  title   | link  |type | date | review |
 |  ----  | ----  | ---- | --- | --- |
 | 18. 4Sum |https://leetcode-cn.com/problems/4sum/| 四指针 | 2022.03.24 | 2022.04.02 |
+| 42. Trapping Rain Water |https://leetcode-cn.com/problems/trapping-rain-water/| 双指针 | 2022.04.05 |  |
+
 
 ## 堆
 |  title   | link  |type | date | review |
