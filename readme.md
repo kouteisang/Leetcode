@@ -78,6 +78,8 @@
 | 5. Longest Palindromic Substring | https://leetcode-cn.com/problems/longest-palindromic-substring/ | dp | 2022.04.04 |  |
 | 22. Generate Parentheses | https://leetcode-cn.com/problems/generate-parentheses/ | dp | 2022.04.04 |  |
 | 152. Maximum Product Subarray | https://leetcode-cn.com/problems/maximum-product-subarray/ | dp | 2022.04.05 |  |
+| 91. Decode Ways | https://leetcode-cn.com/problems/decode-ways/ | dp | 2022.04.06 |  |
+| 96. Unique Binary Search Trees| https://leetcode-cn.com/problems/unique-binary-search-trees/ | dp | 2022.04.06 |  |
 
 ## 数学
 
