@@ -12,6 +12,7 @@
 |  title   | link  |type | date |
 |  ----  | ----  | ---- | --- |
 | 331. Verify Preorder Serialization of a Binary Tree | https://leetcode-cn.com/problems/verify-preorder-serialization-of-a-binary-tree/ | 二叉树前序遍历相关| 2022.03.16 |
+| 95. Unique Binary Search Trees II | https://leetcode-cn.com/problems/unique-binary-search-trees-ii/ | 二叉搜索树 | 2022.04.07 |
 
 ## 位运算
 

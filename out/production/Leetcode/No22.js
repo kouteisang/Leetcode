@@ -8,8 +8,8 @@ ans.push(t1);
 for(let i = 2; i <= n; i ++){
     let temp = []
     for (let j = 0; j < i; j ++){
-        let left = ans.get(j);
-        let right = ans.get(i-j-1);
+        let left = ans[j];
+        let right = ans[i-j-1];
         for(let l of left){
             for(let r of right){
                 let s = "(" + l + ")" + r;
@@ -19,4 +19,4 @@ for(let i = 2; i <= n; i ++){
     }
     ans.push(temp);
 }
-console.log(ans.get(3))
+console.log(ans[3])
