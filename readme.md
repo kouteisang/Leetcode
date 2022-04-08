@@ -27,6 +27,7 @@
 |  ----  | ----  | ---- | --- | --- |
 | 316. Remove Duplicate Letters  | https://leetcode-cn.com/problems/remove-duplicate-letters/ | 最小栈 | 2022.03.16 | 2022.3.18 | 
 | 402. Remove K Digits  | https://leetcode-cn.com/problems/remove-k-digits/ | 最小栈+思维 | 2022.03.17 | 2022.04.02 |
+| 84. Largest Rectangle in Histogram  | https://leetcode-cn.com/problems/largest-rectangle-in-histogram/| 最小栈+思维 | 2022.04.08 | 2022.04.08 |
 
 
 
@@ -81,6 +82,8 @@
 | 152. Maximum Product Subarray | https://leetcode-cn.com/problems/maximum-product-subarray/ | dp | 2022.04.05 |  |
 | 91. Decode Ways | https://leetcode-cn.com/problems/decode-ways/ | dp | 2022.04.06 |  |
 | 96. Unique Binary Search Trees| https://leetcode-cn.com/problems/unique-binary-search-trees/ | dp | 2022.04.06 |  |
+| 221. Maximal Square | https://leetcode-cn.com/problems/maximal-square/ | dp | 2022.04.08 |  |
+
 
 ## 数学
 
