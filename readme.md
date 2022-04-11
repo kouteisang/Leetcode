@@ -81,9 +81,9 @@
 | 22. Generate Parentheses | https://leetcode-cn.com/problems/generate-parentheses/ | dp | 2022.04.04 | 2022.04.09 |
 | 152. Maximum Product Subarray | https://leetcode-cn.com/problems/maximum-product-subarray/ | dp | 2022.04.05 | 2022.04.09 |
 | 91. Decode Ways | https://leetcode-cn.com/problems/decode-ways/ | dp | 2022.04.06 | 2022.04.09 |
-| 96. Unique Binary Search Trees| https://leetcode-cn.com/problems/unique-binary-search-trees/ | dp | 2022.04.06 |  |
-| 221. Maximal Square | https://leetcode-cn.com/problems/maximal-square/ | dp | 2022.04.08 |  |
-
+| 96. Unique Binary Search Trees| https://leetcode-cn.com/problems/unique-binary-search-trees/ | dp | 2022.04.06 | 2022.04.11 |
+| 221. Maximal Square | https://leetcode-cn.com/problems/maximal-square/ | dp | 2022.04.08 | 2022.04.11 |
+| 368. Largest Divisible Subset | https://leetcode-cn.com/problems/largest-divisible-subset/ | dp | 2022.04.11 | |
 
 ## 数学
 
@@ -91,6 +91,7 @@
 |  ----  | ----  | ---- | --- | --- |
 | 264. Ugly Number II |https://leetcode-cn.com/problems/ugly-number-ii/| Math | 2022.03.23 | 2022.04.02 |
 | 313. Super Ugly Number |https://leetcode-cn.com/problems/super-ugly-number/| Math | 2022.03.23 | 2022.04.02 |
+| 357. Count Numbers with Unique Digits | Math | 2022.04.11 |  |
 
 ## Hash
 
