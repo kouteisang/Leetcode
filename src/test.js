@@ -1,36 +1,25 @@
-/**
- * @param {number[]} nums
- * @return {number[]}
- */
-var largestDivisibleSubset = function(nums) {
-    nums.sort((a, b) => {
-        return a-b;
-    });
+var maxSubarraySumCircular = function(nums) {
     let len = nums.length;
-    let dp = new Array(len).fill(1);
-    let ans = 1;
-    let pos = 0;
-    let res = [];
+    let sum = 0;
+    let minSum = 0;
+    let max = nums[0];
+    let min = nums[0];
+    let total = 0;
     for(let i = 0; i < len; i ++){
-        res.push([nums[i]]);
-    }
-    for(let i = 1; i < len; i ++){
-        for(let j = 0; j < i; j ++){
-            if(nums[i] % nums[j] == 0){
-                if(dp[j]+1 >= dp[i]){
-                    res[i] = [...res[j]]
-                    res[i].push(nums[i]);
-                    dp[i] = dp[j]+1;
-                    if(dp[i] > ans){
-                        ans = dp[i];
-                        pos = i;
-                    }
-                }
-            }
+        sum += nums[i];
+        minSum += nums[i];
+        if(sum < nums[i]){
+            sum = nums[i];
         }
+        if(minSum > nums[i]){
+            minSum = nums[i];
+        }
+        max = Math.max(max, sum);
+        min = Math.min(min, minSum);
+        total += nums[i];
     }
-    return res[pos];
+    return Math.max(total-min, max);
+
 };
 
-let final = largestDivisibleSubset([4 ,8, 10, 240]);
-console.log(final);
+maxSubarraySumCircular([-5,-2,-2,-3, -1, -99]);

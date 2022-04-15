@@ -84,6 +84,11 @@
 | 96. Unique Binary Search Trees| https://leetcode-cn.com/problems/unique-binary-search-trees/ | dp | 2022.04.06 | 2022.04.11 |
 | 221. Maximal Square | https://leetcode-cn.com/problems/maximal-square/ | dp | 2022.04.08 | 2022.04.11 |
 | 368. Largest Divisible Subset | https://leetcode-cn.com/problems/largest-divisible-subset/ | dp | 2022.04.11 | |
+| 198. House Robber | https://leetcode-cn.com/problems/house-robber/ | dp | 2022.04.15 | |
+| 740. Delete and Earn | https://leetcode-cn.com/problems/delete-and-earn/ | dp | 2022.04.15 | |
+| 918. Maximum Sum Circular Subarray
+| https://leetcode-cn.com/problems/maximum-sum-circular-subarray/ | dp | 2022.04.15 | |
+
 
 ## 数学
 
