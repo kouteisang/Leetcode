@@ -85,9 +85,11 @@
 | 221. Maximal Square | https://leetcode-cn.com/problems/maximal-square/ | dp | 2022.04.08 | 2022.04.11 |
 | 368. Largest Divisible Subset | https://leetcode-cn.com/problems/largest-divisible-subset/ | dp | 2022.04.11 | 2022.04.16 |
 | 198. House Robber | https://leetcode-cn.com/problems/house-robber/ | dp | 2022.04.15 | 2022.04.16 |
-| 740. Delete and Earn | https://leetcode-cn.com/problems/delete-and-earn/ | dp | 2022.04.15 | |
+| 740. Delete and Earn | https://leetcode-cn.com/problems/delete-and-earn/ | dp | 2022.04.15 | 2022.04.17  |
 | 918. Maximum Sum Circular Subarray | https://leetcode-cn.com/problems/maximum-sum-circular-subarray/ | dp | 2022.04.15 | 2022.04.16 |
-| 1567. Maximum Length of Subarray With Positive Product | https://leetcode-cn.com/problems/maximum-length-of-subarray-with-positive-product/ | dp | 2022.04.16 | |
+| 1567. Maximum Length of Subarray With Positive Product | https://leetcode-cn.com/problems/maximum-length-of-subarray-with-positive-product/ | dp | 2022.04.16 | 2022.04.17 |
+| 1014. Best Sightseeing Pair | https://leetcode-cn.com/problems/best-sightseeing-pair/ | dp | 2022.04.17 | |
+| 122. Best Time to Buy and Sell Stock II | https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/ | dp | 2022.04.17 | |
 
 
 ## 数学
