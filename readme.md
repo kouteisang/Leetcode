@@ -13,6 +13,7 @@
 |  ----  | ----  | ---- | --- |
 | 331. Verify Preorder Serialization of a Binary Tree | https://leetcode-cn.com/problems/verify-preorder-serialization-of-a-binary-tree/ | 二叉树前序遍历相关| 2022.03.16 |
 | 95. Unique Binary Search Trees II | https://leetcode-cn.com/problems/unique-binary-search-trees-ii/ | 二叉搜索树 | 2022.04.07 |
+| 99. Recover Binary Search Tree | https://leetcode-cn.com/problems/recover-binary-search-tree/ | 二叉搜索树 | 2022.04.19 |
 
 ## 位运算
 
@@ -90,6 +91,8 @@
 | 1567. Maximum Length of Subarray With Positive Product | https://leetcode-cn.com/problems/maximum-length-of-subarray-with-positive-product/ | dp | 2022.04.16 | 2022.04.17 |
 | 1014. Best Sightseeing Pair | https://leetcode-cn.com/problems/best-sightseeing-pair/ | dp | 2022.04.17 | |
 | 122. Best Time to Buy and Sell Stock II | https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/ | dp | 2022.04.17 | |
+| 309. Best Time to Buy and Sell Stock with Cooldown | https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/ | dp | 2022.04.19 | |
+| 714. Best Time to Buy and Sell Stock with Transaction Fee | https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/ | dp | 2022.04.19 | |
 
 
 ## 数学
