@@ -30,6 +30,11 @@
 | 402. Remove K Digits  | https://leetcode-cn.com/problems/remove-k-digits/ | 最小栈+思维 | 2022.03.17 | 2022.04.02 |
 | 84. Largest Rectangle in Histogram  | https://leetcode-cn.com/problems/largest-rectangle-in-histogram/| 最小栈+思维 | 2022.04.08 | 2022.04.08 |
 
+## 单调队列
+|  title   | link  |type | date | review |
+|  ----  | ----  | ---- | --- | --- |
+| 862. Shortest Subarray with Sum at Least K | https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/ | 前缀和+单调队列+思维 | 2022.04.20 |  |
+
 
 
 ## 分治
@@ -47,7 +52,6 @@
 | 424. Longest Repeating Character Replacement  |https://leetcode-cn.com/problems/longest-repeating-character-replacement/| 滑动窗口经典题目 | 2022.03.18 | 2022.03.20 |
 | 567. Permutation in String |https://leetcode-cn.com/problems/permutation-in-string/| 滑动窗口+思维 | 2022.03.19 | 2022.03.20 |
 | 1004. Max Consecutive Ones III | https://leetcode-cn.com/problems/max-consecutive-ones-iii/ | 滑动窗口模板题 | 2022.03.20 | 2022.03.21 |
-
 
 ## BFS
 

@@ -1,32 +1,33 @@
 /**
- * @param {string} s
- * @param {string[]} wordDict
- * @return {boolean}
+ * @param {number[]} nums
+ * @param {number} k
+ * @return {number}
  */
-var wordBreak = function(s, wordDict) {
-    let chs = [...s];
-    let len = chs.length;
-    let wordLen = wordDict.length;
-    let dp = new Array(len).fill(false);
-    for(let i = 0; i < len; i ++){
-        for(let j = 0; j < wordLen; j ++){
-            if((i+1) - wordDict[j].length >= 0){
-
-                if((i+1) - wordDict[j].length == 0){
-                    if(s.substring(0, wordDict[j].length) == wordDict[j]){
-                        dp[i] = true;
-                        break;
-                    }
-                }else if((i+1) - wordDict[j].length > 0){
-                    let ss = s.substring(i+1-wordDict[j].length, i+1)
-                    console.log(ss)
-                    dp[i] = dp[i-wordDict[j].length] && (ss == wordDict[j]);
-                    if(dp[i]) break;
-                }
-
+var shortestSubarray = function(nums, k) {
+    let len = nums.length;
+    let ans = Number.MAX_SAFE_INTEGER;
+    let left = 0;
+    let right = 0;
+    let sum = 0;
+    while(left <= right && right < len){
+        while(left <= right && right < len && sum < k){
+            sum += nums[right];
+            if(sum >= k){
+                ans = Math.min(right - left+1, ans);
             }
+            right ++;
+        }
+        while(left <= right && sum >= k){
+            sum -= nums[left];
+            if(sum >= k){
+                ans = Math.min(right-1 - left, ans);
+            }
+            left ++;
         }
     }
-    return dp[len-1];
+    if(ans == Number.MAX_SAFE_INTEGER) ans = -1;
+    return ans;
 };
-wordBreak("applepenapple", ["apple","pen"]);
+
+let ans = shortestSubarray([84, -37, 32, 40, 95],167);
+console.log(ans);
