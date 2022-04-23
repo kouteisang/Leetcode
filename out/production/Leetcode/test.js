@@ -1,33 +1,18 @@
-/**
- * @param {number[]} nums
- * @param {number} k
- * @return {number}
- */
-var shortestSubarray = function(nums, k) {
-    let len = nums.length;
-    let ans = Number.MAX_SAFE_INTEGER;
-    let left = 0;
-    let right = 0;
-    let sum = 0;
-    while(left <= right && right < len){
-        while(left <= right && right < len && sum < k){
-            sum += nums[right];
-            if(sum >= k){
-                ans = Math.min(right - left+1, ans);
-            }
-            right ++;
-        }
-        while(left <= right && sum >= k){
-            sum -= nums[left];
-            if(sum >= k){
-                ans = Math.min(right-1 - left, ans);
-            }
-            left ++;
-        }
+var nthUglyNumber = function(n) {
+    let dp = new Array(n).fill(0);
+    dp[0] = 1;
+    let f2 = 0;
+    let f3 = 0;
+    let f5 = 0;
+    for(let i = 1; i < n; i ++){
+        let number = Math.min(dp[f2]*2, dp[f3]*3, dp[f5]*5);
+        dp.push(number);
+        if(dp[f2]*2 == number) f2 ++;
+        if(dp[f3]*3 == number) f3 ++;
+        if(dp[f5]*5 == number) f5 ++;
     }
-    if(ans == Number.MAX_SAFE_INTEGER) ans = -1;
-    return ans;
+    console.log(dp);
+    return dp[n-1];
 };
 
-let ans = shortestSubarray([84, -37, 32, 40, 95],167);
-console.log(ans);
+nthUglyNumber(10);
