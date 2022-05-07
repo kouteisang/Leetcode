@@ -11,6 +11,7 @@
 |  ----  | ----  | ---- | --- |
 | 224. Basic Calculator  | https://leetcode-cn.com/problems/basic-calculator/ | 字符串模拟 | 2022.03.16 |
 | 306. Additive Number  | https://leetcode-cn.com/problems/additive-number/ | 字符串模拟 | 2022.03.16 |
+| 剑指 Offer II 086. 分割回文子字符串  | https://leetcode-cn.com/problems/M99OJA/ | 回文串 | 2022.05.07 |
 
 
 ## 树 Tree
@@ -77,6 +78,8 @@
 | 140. Word Break II  |https://leetcode-cn.com/problems/word-break-ii/| DFS | 2022.03.21 | 2022.03.22 |
 | 491. Increasing Subsequences  |https://leetcode-cn.com/problems/increasing-subsequences/| DFS+去重 | 2022.03.30 | 2022.04.02 |
 | 652. Find Duplicate Subtrees  |https://leetcode-cn.com/problems/find-duplicate-subtrees/| DFS+Hash+树序列化 | 2022.03.31 | 2022.04.02 |
+| 剑指 Offer II 082. 含有重复元素集合的组合 | https://leetcode-cn.com/problems/4sjJUc/ | DFS | 2022.05.06 | 2022.05.07 |
+| 剑指 Offer II 084. 含有重复元素集合的全排列 | https://leetcode-cn.com/problems/7p8L0Z/ | DFS | 2022.05.06 | 2022.05.07 |
 
 
 ## 链表
@@ -106,6 +109,7 @@
 | 122. Best Time to Buy and Sell Stock II | https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/ | dp | 2022.04.17 | |
 | 309. Best Time to Buy and Sell Stock with Cooldown | https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/ | dp | 2022.04.19 | |
 | 714. Best Time to Buy and Sell Stock with Transaction Fee | https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/ | dp | 2022.04.19 | |
+| Shopee-001. Shopee Tanam | https://leetcode-cn.com/problems/m8KnhV/| dp | 2022.04.25 | |
 
 
 ## 数学
