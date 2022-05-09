@@ -62,6 +62,8 @@
 | 424. Longest Repeating Character Replacement  |https://leetcode-cn.com/problems/longest-repeating-character-replacement/| 滑动窗口经典题目 | 2022.03.18 | 2022.03.20 |
 | 567. Permutation in String |https://leetcode-cn.com/problems/permutation-in-string/| 滑动窗口+思维 | 2022.03.19 | 2022.03.20 |
 | 1004. Max Consecutive Ones III | https://leetcode-cn.com/problems/max-consecutive-ones-iii/ | 滑动窗口模板题 | 2022.03.20 | 2022.03.21 |
+| 剑指 Offer II 009. 乘积小于 K 的子数组 | https://leetcode.cn/submissions/detail/311276846/ | 滑动窗口模板题 | 2022.05.09 |  |
+
 
 ## BFS
 
