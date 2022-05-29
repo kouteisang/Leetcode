@@ -42,6 +42,10 @@
 | 316. Remove Duplicate Letters  | https://leetcode-cn.com/problems/remove-duplicate-letters/ | 最小栈 | 2022.03.16 | 2022.3.18 | 
 | 402. Remove K Digits  | https://leetcode-cn.com/problems/remove-k-digits/ | 最小栈+思维 | 2022.03.17 | 2022.04.02 |
 | 84. Largest Rectangle in Histogram  | https://leetcode-cn.com/problems/largest-rectangle-in-histogram/| 最小栈+思维 | 2022.04.08 | 2022.04.08 |
+| 剑指 Offer II 037. 小行星碰撞  | https://leetcode.cn/problems/XagZNi/| 栈 | 2022.05.29 |  |
+| 剑指 Offer II 038. 每日温度 | https://leetcode.cn/problems/iIQa4I/| 栈 | 2022.05.29 |  |
+
+
 
 ## 单调队列
 |  title   | link  |type | date | review |
@@ -98,7 +102,7 @@
 | 剑指 Offer II 026. 重排链表 | https://leetcode.cn/problems/LGjMqU/ | 链表操作模板题目 | 2022.05.16 | 2022.05.16 |
 | 剑指 Offer II 028. 展平多级双向链表 | https://leetcode.cn/problems/Qv1Da2/ | 链表操作进阶题 | 2022.05.17 | |
 | 剑指 Offer II 029. 排序的循环链表 | https://leetcode.cn/problems/4ueAj6/ | 链表操作进阶题 | 2022.05.19 | |
-| 剑指 Offer II 031. 最近最少使用缓存 | https://leetcode.cn/problems/OrIXps/ | LRU经典题目 | 2022.05.23 | |
+| 剑指 Offer II 031. 最近最少使用缓存 | https://leetcode.cn/problems/OrIXps/ | LRU经典题目 | 2022.05.23 | 2022.05.24 |
 
 
 ## dp
@@ -122,7 +126,7 @@
 | 309. Best Time to Buy and Sell Stock with Cooldown | https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/ | dp | 2022.04.19 | |
 | 714. Best Time to Buy and Sell Stock with Transaction Fee | https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/ | dp | 2022.04.19 | |
 | Shopee-001. Shopee Tanam | https://leetcode-cn.com/problems/m8KnhV/| dp | 2022.04.25 | |
-
+| 剑指 Offer II 096. 字符串交织 | https://leetcode.cn/problems/IY6buf/| dp | 2022.5.25 | 2022.05.27 |
 
 ## 数学
 

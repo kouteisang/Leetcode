@@ -1,22 +1,25 @@
 /**
- * @param {string} s
- * @return {number}
+ * @param {number[]} temperatures
+ * @return {number[]}
  */
-var minFlipsMonoIncr = function(s) {
-    let len = s.length;
-    let chs = [...s]
-    let sum = new Array(len).fill(0);
-    sum[0] = parseInt(chs[0]);
-    for(let i = 1; i < len; i ++){
-        sum[i] = sum[i-1] + parseInt(chs[i]);
-    }
-    ans = len - sum[len-1];
-    for(let i = 1; i < len; i ++){
-        let temp = sum[i-1];
-        temp += (len - i) - sum[len-1] - sum[i-1];
-        ans = Math.min(ans, temp);
+var dailyTemperatures = function(temperatures) {
+    let len = temperatures.length;
+    let stack = [];
+    let ans = [];
+    for(let i = 0; i < len; i ++){
+        if(stack.length >= 1){
+            let cnt = i-1;
+            while(stack.length > 0 && temperatures[i] > temperatures[stack[stack.length-1]]){
+                ans[stack[stack.length-1]] = i - stack[stack.length-1];
+                cnt --;
+                stack.pop();
+            }
+        }
+        stack.push(i);
+        ans.push(0);
     }
     return ans;
 };
 
-minFlipsMonoIncr("00110");
+
+dailyTemperatures([73,74,75,71,69,72,76,73]);
