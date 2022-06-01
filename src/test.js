@@ -1,25 +1,26 @@
 /**
- * @param {number[]} temperatures
- * @return {number[]}
+ * @param {number[]} coins
+ * @param {number} amount
+ * @return {number}
  */
-var dailyTemperatures = function(temperatures) {
-    let len = temperatures.length;
-    let stack = [];
-    let ans = [];
-    for(let i = 0; i < len; i ++){
-        if(stack.length >= 1){
-            let cnt = i-1;
-            while(stack.length > 0 && temperatures[i] > temperatures[stack[stack.length-1]]){
-                ans[stack[stack.length-1]] = i - stack[stack.length-1];
-                cnt --;
-                stack.pop();
+var coinChange = function(coins, amount) {
+    if(amount == 0) return 0;
+    let dp = new Array(amount + 3).fill(Number.MAX_SAFE_INTEGER);
+    let cnt = 0;
+    for(let i = 0; i <= amount; i += coins[0]){
+        dp[i] = ++cnt-1;
+    }
+    dp[0] = 0;
+    let len = coins.length;
+    for(let i = 1; i < len; i ++){
+        for(let j = 0; j <= amount; j ++){
+            if(j >= coins[i]){
+                dp[j] = Math.min(dp[j], dp[j-coins[i]]+1);
             }
         }
-        stack.push(i);
-        ans.push(0);
     }
-    return ans;
+    return dp[amount] == 0 ? -1 : dp[amount];
 };
 
-
-dailyTemperatures([73,74,75,71,69,72,76,73]);
+let ans = coinChange([2, 5, 10, 1], 27);
+console.log(ans)

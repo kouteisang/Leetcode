@@ -127,6 +127,10 @@
 | 714. Best Time to Buy and Sell Stock with Transaction Fee | https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/ | dp | 2022.04.19 | |
 | Shopee-001. Shopee Tanam | https://leetcode-cn.com/problems/m8KnhV/| dp | 2022.04.25 | |
 | 剑指 Offer II 096. 字符串交织 | https://leetcode.cn/problems/IY6buf/| dp | 2022.5.25 | 2022.05.27 |
+| 剑指 Offer II 101. 分割等和子集 | https://leetcode.cn/problems/NUPfPr/ | 0-1背包模板题目 | 2022.5.25 |  |
+| 剑指 Offer II 102. 加减的目标值 | https://leetcode.cn/problems/YaVDxD/ | 0-1背包模板题目+思维 | 2022.06.01 |  |
+| 剑指 Offer II 103. 最少的硬币数目 | https://leetcode.cn/problems/gaM7Ch/ | 完全背包模版题 | 2022.06.01 |  |
+
 
 ## 数学
 
