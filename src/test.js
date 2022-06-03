@@ -1,26 +1,70 @@
 /**
- * @param {number[]} coins
- * @param {number} amount
+ * @param {number[][]} grid
  * @return {number}
  */
-var coinChange = function(coins, amount) {
-    if(amount == 0) return 0;
-    let dp = new Array(amount + 3).fill(Number.MAX_SAFE_INTEGER);
-    let cnt = 0;
-    for(let i = 0; i <= amount; i += coins[0]){
-        dp[i] = ++cnt-1;
+
+let parents;
+let rank;
+let ans = 0;
+
+const find = (x) => {
+    if(parents[x] == x) return parents[x];
+    return parents[x] = find(parents[x])
+}
+
+const union = (i, j, x, y, n, m)=>{
+    let pone = find(i*m+j);
+    let ptwo = find(x*m+y);
+    if(pone == ptwo){
+        return ;
+    }else if(pone < ptwo){
+        parents[pone] = ptwo;
+        rank[ptwo] += rank[pone];
+        ans = Math.max(rank[ptwo], ans);
+    }else{
+        parents[ptwo] = pone;
+        rank[pone] += rank[ptwo];
+        ans = Math.max(rank[pone], ans);
     }
-    dp[0] = 0;
-    let len = coins.length;
-    for(let i = 1; i < len; i ++){
-        for(let j = 0; j <= amount; j ++){
-            if(j >= coins[i]){
-                dp[j] = Math.min(dp[j], dp[j-coins[i]]+1);
+}
+
+var maxAreaOfIsland = function(grid) {
+    let n = grid.length;
+    let m = grid[0].length;
+
+    parents = new Array(n*m+10).fill(0);
+    for(let i = 0; i < n*m+10; i ++){
+        parents[i] = i;
+    }
+    rank = new Array(n*m+10).fill(1);
+    ans = 0;
+
+    for(let i = 0; i < n; i ++){
+        for(let j = 0; j < m; j ++){
+            let num = i*m+j;
+            if(grid[i][j] != 1) continue ;
+            if(i-1 >= 0 && grid[i-1][j] == 1){
+                union(i, j, i-1, j, n, m);
+            }
+            if(i+1 < n && grid[i+1][j] == 1){
+                union(i, j, i+1, j, n, m);
+            }
+            if(j-1 >= 0 && grid[i][j-1] == 1){
+                union(i, j, i, j-1, n, m);
+            }
+            if(j+1 < m && grid[i][j+1] == 1){
+                union(i, j, i, j+1, n, m);
             }
         }
     }
-    return dp[amount] == 0 ? -1 : dp[amount];
+    return ans;
 };
 
-let ans = coinChange([2, 5, 10, 1], 27);
-console.log(ans)
+
+let grid =
+    [[0, 1, 1, 0],
+    [0 ,1 ,0, 0],
+    [0,0,0,0]]
+
+let res = maxAreaOfIsland(grid);
+console.log(res)

@@ -130,6 +130,8 @@
 | 剑指 Offer II 101. 分割等和子集 | https://leetcode.cn/problems/NUPfPr/ | 0-1背包模板题目 | 2022.5.25 |  |
 | 剑指 Offer II 102. 加减的目标值 | https://leetcode.cn/problems/YaVDxD/ | 0-1背包模板题目+思维 | 2022.06.01 |  |
 | 剑指 Offer II 103. 最少的硬币数目 | https://leetcode.cn/problems/gaM7Ch/ | 完全背包模版题 | 2022.06.01 |  |
+| 剑指 Offer II 104. 排列的数目 | https://leetcode.cn/problems/D0F0SV/ | 完全背包+思维 | 2022.06.03 |  |
+| 剑指 Offer II 105. 岛屿的最大面积 | https://leetcode.cn/problems/ZL6zAn/ | DFS or 并查集 | 2022.06.03 |  |
 
 
 ## 数学
