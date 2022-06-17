@@ -1,70 +1,50 @@
 /**
- * @param {number[][]} grid
+ * Initialize your data structure here.
+ * @param {number} size
+ */
+let num;
+var MovingAverage = function(size) {
+    this.size = size;
+    num = 0;
+    this.list = [];
+};
+
+/**
+ * @param {number} val
  * @return {number}
  */
-
-let parents;
-let rank;
-let ans = 0;
-
-const find = (x) => {
-    if(parents[x] == x) return parents[x];
-    return parents[x] = find(parents[x])
-}
-
-const union = (i, j, x, y, n, m)=>{
-    let pone = find(i*m+j);
-    let ptwo = find(x*m+y);
-    if(pone == ptwo){
-        return ;
-    }else if(pone < ptwo){
-        parents[pone] = ptwo;
-        rank[ptwo] += rank[pone];
-        ans = Math.max(rank[ptwo], ans);
+MovingAverage.prototype.next = function(val) {
+    const {size, list} = this;
+    num ++;
+    let ans = 0;
+    if(num > size){
+        num = size;
+        list.unshift();
+        list.push(val);
+        ans = 0;
+        list.forEach((val, index, list)=>{
+            ans += val;
+        }, 0)
+        ans = ans/num;
     }else{
-        parents[ptwo] = pone;
-        rank[pone] += rank[ptwo];
-        ans = Math.max(rank[pone], ans);
+        list.push(val);
+        list.forEach((val, index, list)=>{
+            ans += val;
+        }, 0)
+        ans = ans/num;
     }
-}
-
-var maxAreaOfIsland = function(grid) {
-    let n = grid.length;
-    let m = grid[0].length;
-
-    parents = new Array(n*m+10).fill(0);
-    for(let i = 0; i < n*m+10; i ++){
-        parents[i] = i;
-    }
-    rank = new Array(n*m+10).fill(1);
-    ans = 0;
-
-    for(let i = 0; i < n; i ++){
-        for(let j = 0; j < m; j ++){
-            let num = i*m+j;
-            if(grid[i][j] != 1) continue ;
-            if(i-1 >= 0 && grid[i-1][j] == 1){
-                union(i, j, i-1, j, n, m);
-            }
-            if(i+1 < n && grid[i+1][j] == 1){
-                union(i, j, i+1, j, n, m);
-            }
-            if(j-1 >= 0 && grid[i][j-1] == 1){
-                union(i, j, i, j-1, n, m);
-            }
-            if(j+1 < m && grid[i][j+1] == 1){
-                union(i, j, i, j+1, n, m);
-            }
-        }
-    }
+    this.list = list;
     return ans;
 };
 
+/**
+ * Your MovingAverage object will be instantiated and called as such:
+ * var obj = new MovingAverage(size)
+ * var param_1 = obj.next(val)
+ */
 
-let grid =
-    [[0, 1, 1, 0],
-    [0 ,1 ,0, 0],
-    [0,0,0,0]]
-
-let res = maxAreaOfIsland(grid);
-console.log(res)
+let move = new MovingAverage(3);
+move.next(1);
+move.next(10);
+move.next(3);
+move.next(5);

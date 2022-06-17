@@ -26,6 +26,7 @@
 | 99. Recover Binary Search Tree | https://leetcode-cn.com/problems/recover-binary-search-tree/ | 二叉搜索树 | 2022.04.19 | |
 | 109. Convert Sorted List to Binary Search Tree | https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/ | list to BST | 2022.04.23 | |
 | 103. Binary Tree Zigzag Level Order Traversal | https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/ | Zigzag Level order Traversal | 2022.04.23 | |
+| 剑指 Offer II 043. 往完全二叉树添加节点 | https://leetcode.cn/problems/NaqhDT/ | 完全二叉树 | 2022.06.17 | |
 
 
 ## 位运算
@@ -78,6 +79,7 @@
 |  ----  | ----  | ---- | --- | --- |
 | 433. Minimum Genetic Mutation  |https://leetcode-cn.com/problems/minimum-genetic-mutation/| BFS模板题 | 2022.03.19 | 2022.03.20 |
 | 133. Clone Graph  |https://leetcode-cn.com/problems/clone-graph/| BFS+Hash+图 | 2022.03.21 | 2022.03.23 |
+| 剑指 Offer II 106. 二分图  | https://leetcode.cn/problems/vEAB3K/ | 二分图判断 | 2022.06.17 |  |
 
 
 ## DFS
