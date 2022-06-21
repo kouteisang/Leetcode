@@ -80,6 +80,7 @@
 | 433. Minimum Genetic Mutation  |https://leetcode-cn.com/problems/minimum-genetic-mutation/| BFS模板题 | 2022.03.19 | 2022.03.20 |
 | 133. Clone Graph  |https://leetcode-cn.com/problems/clone-graph/| BFS+Hash+图 | 2022.03.21 | 2022.03.23 |
 | 剑指 Offer II 106. 二分图  | https://leetcode.cn/problems/vEAB3K/ | 二分图判断 | 2022.06.17 |  |
+| 752. 打开转盘锁 | https://leetcode.cn/problems/open-the-lock/ | BFS | 2022.06.21 |  |
 
 
 ## DFS
