@@ -27,7 +27,8 @@
 | 109. Convert Sorted List to Binary Search Tree | https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/ | list to BST | 2022.04.23 | |
 | 103. Binary Tree Zigzag Level Order Traversal | https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/ | Zigzag Level order Traversal | 2022.04.23 | |
 | 剑指 Offer II 043. 往完全二叉树添加节点 | https://leetcode.cn/problems/NaqhDT/ | 完全二叉树 | 2022.06.17 | 2022.06.23 |
-| 剑指 Offer II 050. 向下的路径节点之和 | https://leetcode.cn/problems/6eUYwP/ | DFS树+前缀和 | 2022.06.23 | |
+| 剑指 Offer II 050. 向下的路径节点之和 | https://leetcode.cn/problems/6eUYwP/ | DFS树+前缀和 | 2022.06.23 | 2022.06.26 |
+| 剑指 Offer II 053. 二叉搜索树中的中序后继 | https://leetcode.cn/problems/P5rCT8/ | 二叉搜索树 | 2022.06.25 | 2022.06.26 |
 
 
 ## 位运算
@@ -136,7 +137,7 @@
 | 剑指 Offer II 102. 加减的目标值 | https://leetcode.cn/problems/YaVDxD/ | 0-1背包模板题目+思维 | 2022.06.01 |  |
 | 剑指 Offer II 103. 最少的硬币数目 | https://leetcode.cn/problems/gaM7Ch/ | 完全背包模版题 | 2022.06.01 |  |
 | 剑指 Offer II 104. 排列的数目 | https://leetcode.cn/problems/D0F0SV/ | 完全背包+思维 | 2022.06.03 |  |
-| 剑指 Offer II 105. 岛屿的最大面积 | https://leetcode.cn/problems/ZL6zAn/ | DFS or 并查集 | 2022.06.03 |  |
+| 剑指 Offer II 105. 岛屿的最大面积 | https://leetcode.cn/problems/ZL6zAn/ | DFS or 并查集 | 2022.06.03 | 2022.06.26 |
 
 
 ## 数学
@@ -177,4 +178,10 @@
 | 55. Jump Game | https://leetcode-cn.com/problems/jump-game/ | 贪心思维 | 2022.04.04 | |
 
 
+
+## 排序
+|  title   | link  |type | date | review |
+|  ----  | ----  | ---- | --- | --- |
+| 剑指 Offer II 113. 课程顺序 | https://leetcode.cn/problems/QA2IGt/ | 拓扑排序 | 2022.06.25 | 2022.06.26 |
+| 剑指 Offer II 115. 重建序列 | https://leetcode.cn/problems/ur2n8P/ | 拓扑排序 | 2022.06.26 |  |
 
