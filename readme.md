@@ -185,3 +185,7 @@
 | 剑指 Offer II 113. 课程顺序 | https://leetcode.cn/problems/QA2IGt/ | 拓扑排序 | 2022.06.25 | 2022.06.26 |
 | 剑指 Offer II 115. 重建序列 | https://leetcode.cn/problems/ur2n8P/ | 拓扑排序 | 2022.06.26 |  |
 
+## 并查集
+|  title   | link  |type | date | review |
+|  ----  | ----  | ---- | --- | --- |
+| 剑指 Offer II 118. 多余的边 | https://leetcode.cn/problems/7LpjUW/ | 并查集 | 2022.06.30 |  |
