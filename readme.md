@@ -73,6 +73,7 @@
 | 567. Permutation in String |https://leetcode-cn.com/problems/permutation-in-string/| 滑动窗口+思维 | 2022.03.19 | 2022.03.20 |
 | 1004. Max Consecutive Ones III | https://leetcode-cn.com/problems/max-consecutive-ones-iii/ | 滑动窗口模板题 | 2022.03.20 | 2022.03.21 |
 | 剑指 Offer II 009. 乘积小于 K 的子数组 | https://leetcode.cn/submissions/detail/311276846/ | 滑动窗口模板题 | 2022.05.09 |  |
+| 220. Contains Duplicate III | https://leetcode.cn/problems/contains-duplicate-iii/ | 滑动窗口+二分 | 2022.07.01 |  |
 
 
 ## BFS
@@ -183,9 +184,10 @@
 |  title   | link  |type | date | review |
 |  ----  | ----  | ---- | --- | --- |
 | 剑指 Offer II 113. 课程顺序 | https://leetcode.cn/problems/QA2IGt/ | 拓扑排序 | 2022.06.25 | 2022.06.26 |
-| 剑指 Offer II 115. 重建序列 | https://leetcode.cn/problems/ur2n8P/ | 拓扑排序 | 2022.06.26 |  |
+| 剑指 Offer II 115. 重建序列 | https://leetcode.cn/problems/ur2n8P/ | 拓扑排序 | 2022.06.26 | 2022.06.30 |
 
 ## 并查集
 |  title   | link  |type | date | review |
 |  ----  | ----  | ---- | --- | --- |
 | 剑指 Offer II 118. 多余的边 | https://leetcode.cn/problems/7LpjUW/ | 并查集 | 2022.06.30 |  |
+| 剑指 Offer II 119. 最长连续序列 | https://leetcode.cn/problems/WhsWhI/ | 并查集 | 2022.07.01 |  |
