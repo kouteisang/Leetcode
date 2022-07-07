@@ -156,6 +156,7 @@
 | 398. Random Pick Index |https://leetcode-cn.com/problems/random-pick-index/| Hash + random（蓄水池采样,没搞懂） | 2022.03.23 | |
 | 454. 4Sum II |https://leetcode-cn.com/problems/4sum-ii/| Hash | 2022.03.24 | 2033.04.02 |
 | 648. Replace Words |https://leetcode-cn.com/problems/replace-words/| Hash+字典树 | 2022.03.31 | 2022.04.02 |
+| https://leetcode.cn/problems/ms70jA/ | https://leetcode.cn/problems/ms70jA/ | Hash+字典树 | 2022.07.07 |  |
 
 
 ## 双指针/多指针
