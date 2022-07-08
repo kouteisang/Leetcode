@@ -156,7 +156,7 @@
 | 398. Random Pick Index |https://leetcode-cn.com/problems/random-pick-index/| Hash + random（蓄水池采样,没搞懂） | 2022.03.23 | |
 | 454. 4Sum II |https://leetcode-cn.com/problems/4sum-ii/| Hash | 2022.03.24 | 2033.04.02 |
 | 648. Replace Words |https://leetcode-cn.com/problems/replace-words/| Hash+字典树 | 2022.03.31 | 2022.04.02 |
-| https://leetcode.cn/problems/ms70jA/ | https://leetcode.cn/problems/ms70jA/ | Hash+字典树 | 2022.07.07 |  |
+| 剑指 Offer II 067. 最大的异或 | https://leetcode.cn/problems/ms70jA/ | Hash+字典树 | 2022.07.07 | 2022.07.08 |
 
 
 ## 双指针/多指针
@@ -193,3 +193,12 @@
 |  ----  | ----  | ---- | --- | --- |
 | 剑指 Offer II 118. 多余的边 | https://leetcode.cn/problems/7LpjUW/ | 并查集 | 2022.06.30 | 2022.07.04 |
 | 剑指 Offer II 119. 最长连续序列 | https://leetcode.cn/problems/WhsWhI/ | 并查集 | 2022.07.01 | 2022.07.04 |
+
+
+## 二分查找
+
+|  title   | link  |type | date | review |
+|  ----  | ----  | ---- | --- | --- |
+| 剑指 Offer II 068. 查找插入位置 | https://leetcode.cn/problems/N6YdxV/ | 二分查找模板 | 2022.07.08 |  |
+| 剑指 Offer II 069. 山峰数组的顶部 | https://leetcode.cn/problems/B1IidL/ | 二分查找模板 | 2022.07.08 |  |
+| 剑指 Offer II 070. 排序数组中只出现一次的数字 | https://leetcode.cn/problems/skFtm2/ | 二分查找进阶 | 2022.07.08 |  |
