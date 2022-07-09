@@ -199,6 +199,6 @@
 
 |  title   | link  |type | date | review |
 |  ----  | ----  | ---- | --- | --- |
-| 剑指 Offer II 068. 查找插入位置 | https://leetcode.cn/problems/N6YdxV/ | 二分查找模板 | 2022.07.08 |  |
-| 剑指 Offer II 069. 山峰数组的顶部 | https://leetcode.cn/problems/B1IidL/ | 二分查找模板 | 2022.07.08 |  |
-| 剑指 Offer II 070. 排序数组中只出现一次的数字 | https://leetcode.cn/problems/skFtm2/ | 二分查找进阶 | 2022.07.08 |  |
+| 剑指 Offer II 068. 查找插入位置 | https://leetcode.cn/problems/N6YdxV/ | 二分查找模板 | 2022.07.08 | 2022.07.09 |
+| 剑指 Offer II 069. 山峰数组的顶部 | https://leetcode.cn/problems/B1IidL/ | 二分查找模板 | 2022.07.08 | 2022.07.09 |
+| 剑指 Offer II 070. 排序数组中只出现一次的数字 | https://leetcode.cn/problems/skFtm2/ | 二分查找进阶 | 2022.07.08 | 2022.07.09 |
