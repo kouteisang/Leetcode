@@ -38,3 +38,8 @@ const findSmaller = (array, num) => {
     if(array[left] > num) return undefined;
     else return array[left];
 }
+
+
+// left 和 right之间要不要取= 完全取决于我们的left和right的变化
+// 如果left = mid+1 或者 right = mid-1 那么需要取等号
+// 如果left = mid 或者 right = mid 那么不需要取等号
