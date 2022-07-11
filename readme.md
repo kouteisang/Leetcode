@@ -94,8 +94,9 @@
 | 140. Word Break II  |https://leetcode-cn.com/problems/word-break-ii/| DFS | 2022.03.21 | 2022.03.22 |
 | 491. Increasing Subsequences  |https://leetcode-cn.com/problems/increasing-subsequences/| DFS+去重 | 2022.03.30 | 2022.04.02 |
 | 652. Find Duplicate Subtrees  |https://leetcode-cn.com/problems/find-duplicate-subtrees/| DFS+Hash+树序列化 | 2022.03.31 | 2022.04.02 |
-| 剑指 Offer II 082. 含有重复元素集合的组合 | https://leetcode-cn.com/problems/4sjJUc/ | DFS | 2022.05.06 | 2022.05.07 |
-| 剑指 Offer II 084. 含有重复元素集合的全排列 | https://leetcode-cn.com/problems/7p8L0Z/ | DFS | 2022.05.06 | 2022.05.07 |
+| 剑指 Offer II 082. 含有重复元素集合的组合 | https://leetcode-cn.com/problems/4sjJUc/ | DFS | 2022.05.06 | 2022.07.11 |
+| 剑指 Offer II 084. 含有重复元素集合的全排列 | https://leetcode-cn.com/problems/7p8L0Z/ | DFS | 2022.05.06 |  |
+| 剑指 Offer II 080. 含有 k 个元素的组合 | https://leetcode.cn/problems/uUsW3B/ | DFS | 2022.07.11 |  |
 
 
 ## 链表
