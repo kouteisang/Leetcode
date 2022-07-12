@@ -4,8 +4,8 @@
 |  title   | link  |type | date | review |  
 |  ----  | ----  | ---- | --- | --- | 
 |  1314. Matrix Block Sum  | https://leetcode-cn.com/problems/matrix-block-sum/  | 数组前缀和 | 2022.02.24 | |
-|  剑指 Offer II 010. 和为 k 的子数组  | https://leetcode.cn/problems/QTMn0o/  | 数组前缀和 | 2022.5.10 | 2022.05.11 |
-|  剑指 Offer II 011. 0 和 1 个数相同的子数组 | https://leetcode.cn/problems/A1NYOS/ | 数组前缀和 | 2022.5.10 | 2022.05.11 |
+|  剑指 Offer II 010. 和为 k 的子数组  | https://leetcode.cn/problems/QTMn0o/  | 数组前缀和 | 2022.5.10 | 2022.07.12 |
+|  剑指 Offer II 011. 0 和 1 个数相同的子数组 | https://leetcode.cn/problems/A1NYOS/ | 数组前缀和 | 2022.5.10 | 2022.07.12(***) |
 
 ## 字符串String
 
@@ -13,9 +13,9 @@
 |  ----  | ----  | ---- | --- | --- |
 | 224. Basic Calculator  | https://leetcode-cn.com/problems/basic-calculator/ | 字符串模拟 | 2022.03.16 ||
 | 306. Additive Number  | https://leetcode-cn.com/problems/additive-number/ | 字符串模拟 | 2022.03.16 ||
-| 剑指 Offer II 086. 分割回文子字符串  | https://leetcode-cn.com/problems/M99OJA/ | 回文串 | 2022.05.07 | 2022.05.10|
-| 剑指 Offer II 016. 不含重复字符的最长子字符串  | https://leetcode.cn/problems/wtcaE1/ | 子串 | 2022.05.12 | 2022.05.13 |
-| 剑指 Offer II 017. 含有所有字符的最短字符串  | https://leetcode.cn/problems/M1oyTv/ | 子串 | 2022.05.12 | 2022.05.13 |
+| 剑指 Offer II 086. 分割回文子字符串  | https://leetcode-cn.com/problems/M99OJA/ | 回文串+dp or 回文串+模拟 | 2022.05.07 | 2022.07.12|
+| 剑指 Offer II 016. 不含重复字符的最长子字符串  | https://leetcode.cn/problems/wtcaE1/ | 子串 | 2022.05.12 | 2022.07.12 |
+| 剑指 Offer II 017. 含有所有字符的最短字符串  | https://leetcode.cn/problems/M1oyTv/ | 子串 | 2022.05.12 | 2022.07.12 |
 
 ## 树 Tree
 
@@ -95,7 +95,7 @@
 | 491. Increasing Subsequences  |https://leetcode-cn.com/problems/increasing-subsequences/| DFS+去重 | 2022.03.30 | 2022.04.02 |
 | 652. Find Duplicate Subtrees  |https://leetcode-cn.com/problems/find-duplicate-subtrees/| DFS+Hash+树序列化 | 2022.03.31 | 2022.04.02 |
 | 剑指 Offer II 082. 含有重复元素集合的组合 | https://leetcode-cn.com/problems/4sjJUc/ | DFS | 2022.05.06 | 2022.07.11 |
-| 剑指 Offer II 084. 含有重复元素集合的全排列 | https://leetcode-cn.com/problems/7p8L0Z/ | DFS | 2022.05.06 |  |
+| 剑指 Offer II 084. 含有重复元素集合的全排列 | https://leetcode-cn.com/problems/7p8L0Z/ | DFS | 2022.05.06 | 2022.07.12 |
 | 剑指 Offer II 080. 含有 k 个元素的组合 | https://leetcode.cn/problems/uUsW3B/ | DFS | 2022.07.11 |  |
 
 
