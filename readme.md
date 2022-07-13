@@ -26,9 +26,9 @@
 | 99. Recover Binary Search Tree | https://leetcode-cn.com/problems/recover-binary-search-tree/ | 二叉搜索树 | 2022.04.19 | |
 | 109. Convert Sorted List to Binary Search Tree | https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/ | list to BST | 2022.04.23 | |
 | 103. Binary Tree Zigzag Level Order Traversal | https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/ | Zigzag Level order Traversal | 2022.04.23 | |
-| 剑指 Offer II 043. 往完全二叉树添加节点 | https://leetcode.cn/problems/NaqhDT/ | 完全二叉树 | 2022.06.17 | 2022.06.23 |
-| 剑指 Offer II 050. 向下的路径节点之和 | https://leetcode.cn/problems/6eUYwP/ | DFS树+前缀和 | 2022.06.23 | 2022.06.26 |
-| 剑指 Offer II 053. 二叉搜索树中的中序后继 | https://leetcode.cn/problems/P5rCT8/ | 二叉搜索树 | 2022.06.25 | 2022.06.26 |
+| 剑指 Offer II 043. 往完全二叉树添加节点 | https://leetcode.cn/problems/NaqhDT/ | 完全二叉树 | 2022.06.17 | 2022.07.13 |
+| 剑指 Offer II 050. 向下的路径节点之和 | https://leetcode.cn/problems/6eUYwP/ | DFS树+前缀和 | 2022.06.23 | 2022.07.13 |
+| 剑指 Offer II 053. 二叉搜索树中的中序后继 | https://leetcode.cn/problems/P5rCT8/ | 二叉搜索树 | 2022.06.25 | 2022.07.13(***)|
 
 
 ## 位运算
@@ -45,7 +45,7 @@
 | 316. Remove Duplicate Letters  | https://leetcode-cn.com/problems/remove-duplicate-letters/ | 最小栈 | 2022.03.16 | 2022.3.18 | 
 | 402. Remove K Digits  | https://leetcode-cn.com/problems/remove-k-digits/ | 最小栈+思维 | 2022.03.17 | 2022.04.02 |
 | 84. Largest Rectangle in Histogram  | https://leetcode-cn.com/problems/largest-rectangle-in-histogram/| 最小栈+思维 | 2022.04.08 | 2022.04.08 |
-| 剑指 Offer II 037. 小行星碰撞  | https://leetcode.cn/problems/XagZNi/| 栈 | 2022.05.29 |  |
+| 剑指 Offer II 037. 小行星碰撞  | https://leetcode.cn/problems/XagZNi/| 栈 | 2022.05.29 | 2022.07.13 |
 | 剑指 Offer II 038. 每日温度 | https://leetcode.cn/problems/iIQa4I/| 栈 | 2022.05.29 |  |
 
 

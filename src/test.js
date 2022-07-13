@@ -1,1 +1,0 @@
-console.log('a'.toUpperCase() === 'a')
