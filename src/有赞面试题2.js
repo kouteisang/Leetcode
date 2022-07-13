@@ -37,4 +37,5 @@ const testData = {
     a_d_s: 1
 }
 
+//转换驼峰
 console.log(mapKeyToCamelCase(testData))
