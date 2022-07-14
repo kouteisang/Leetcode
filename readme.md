@@ -46,7 +46,7 @@
 | 402. Remove K Digits  | https://leetcode-cn.com/problems/remove-k-digits/ | 最小栈+思维 | 2022.03.17 | 2022.04.02 |
 | 84. Largest Rectangle in Histogram  | https://leetcode-cn.com/problems/largest-rectangle-in-histogram/| 最小栈+思维 | 2022.04.08 | 2022.04.08 |
 | 剑指 Offer II 037. 小行星碰撞  | https://leetcode.cn/problems/XagZNi/| 栈 | 2022.05.29 | 2022.07.13 |
-| 剑指 Offer II 038. 每日温度 | https://leetcode.cn/problems/iIQa4I/| 栈 | 2022.05.29 |  |
+| 剑指 Offer II 038. 每日温度 | https://leetcode.cn/problems/iIQa4I/| 栈 | 2022.05.29 | 2022.07.14 |
 
 
 
@@ -72,8 +72,8 @@
 | 424. Longest Repeating Character Replacement  |https://leetcode-cn.com/problems/longest-repeating-character-replacement/| 滑动窗口经典题目 | 2022.03.18 | 2022.03.20 |
 | 567. Permutation in String |https://leetcode-cn.com/problems/permutation-in-string/| 滑动窗口+思维 | 2022.03.19 | 2022.03.20 |
 | 1004. Max Consecutive Ones III | https://leetcode-cn.com/problems/max-consecutive-ones-iii/ | 滑动窗口模板题 | 2022.03.20 | 2022.03.21 |
-| 剑指 Offer II 009. 乘积小于 K 的子数组 | https://leetcode.cn/submissions/detail/311276846/ | 滑动窗口模板题 | 2022.05.09 |  |
-| 220. Contains Duplicate III | https://leetcode.cn/problems/contains-duplicate-iii/ | 滑动窗口+二分 | 2022.07.01 |  |
+| 剑指 Offer II 009. 乘积小于 K 的子数组 | https://leetcode.cn/submissions/detail/311276846/ | 滑动窗口模板题 | 2022.05.09 | 2022.07.14(***) |
+| 220. Contains Duplicate III | https://leetcode.cn/problems/contains-duplicate-iii/ | 滑动窗口+二分 | 2022.07.01 | 2022.07.14(***) |
 
 
 ## BFS
@@ -82,7 +82,7 @@
 |  ----  | ----  | ---- | --- | --- |
 | 433. Minimum Genetic Mutation  |https://leetcode-cn.com/problems/minimum-genetic-mutation/| BFS模板题 | 2022.03.19 | 2022.03.20 |
 | 133. Clone Graph  |https://leetcode-cn.com/problems/clone-graph/| BFS+Hash+图 | 2022.03.21 | 2022.03.23 |
-| 剑指 Offer II 106. 二分图  | https://leetcode.cn/problems/vEAB3K/ | 二分图判断 | 2022.06.17 | 2022.07.05 |
+| 剑指 Offer II 106. 二分图  | https://leetcode.cn/problems/vEAB3K/ | 二分图判断 | 2022.06.17 | 2022.07.14(*) |
 | 752. 打开转盘锁 | https://leetcode.cn/problems/open-the-lock/ | BFS | 2022.06.21 |  |
 | 剑指 Offer II 111. 计算除法 | https://leetcode.cn/problems/vlzXQL/ | BFS/最短路/并查集 | 2022.06.22 | 2022.07.04 |
 
