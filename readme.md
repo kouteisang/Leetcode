@@ -139,8 +139,8 @@
 | 剑指 Offer II 101. 分割等和子集 | https://leetcode.cn/problems/NUPfPr/ | 0-1背包模板题目 | 2022.5.25 | 2022.07.18(***) |
 | 剑指 Offer II 102. 加减的目标值 | https://leetcode.cn/problems/YaVDxD/ | 0-1背包模板题目+思维 | 2022.06.01 | 2022.07.18(***) |
 | 剑指 Offer II 103. 最少的硬币数目 | https://leetcode.cn/problems/gaM7Ch/ | 完全背包模版题 | 2022.06.01 | 2022.07.18(***) |
-| 剑指 Offer II 104. 排列的数目 | https://leetcode.cn/problems/D0F0SV/ | 完全背包+思维 | 2022.06.03 |  |
-| 剑指 Offer II 105. 岛屿的最大面积 | https://leetcode.cn/problems/ZL6zAn/ | DFS or 并查集 | 2022.06.03 | 2022.06.26 |
+| 剑指 Offer II 104. 排列的数目 | https://leetcode.cn/problems/D0F0SV/ | 完全背包+思维 | 2022.06.03 | 2022.07.19(***) |
+| 剑指 Offer II 105. 岛屿的最大面积 | https://leetcode.cn/problems/ZL6zAn/ | DFS or 并查集 | 2022.06.03 | 2022.07.19 |
 
 
 ## 数学
@@ -158,7 +158,7 @@
 | 398. Random Pick Index |https://leetcode-cn.com/problems/random-pick-index/| Hash + random（蓄水池采样,没搞懂） | 2022.03.23 | |
 | 454. 4Sum II |https://leetcode-cn.com/problems/4sum-ii/| Hash | 2022.03.24 | 2033.04.02 |
 | 648. Replace Words |https://leetcode-cn.com/problems/replace-words/| Hash+字典树 | 2022.03.31 | 2022.04.02 |
-| 剑指 Offer II 067. 最大的异或 | https://leetcode.cn/problems/ms70jA/ | Hash+字典树 | 2022.07.07 | 2022.07.08 |
+| 剑指 Offer II 067. 最大的异或 | https://leetcode.cn/problems/ms70jA/ | Hash+字典树 | 2022.07.07 | 2022.07.19 |
 
 
 ## 双指针/多指针
@@ -204,3 +204,10 @@
 | 剑指 Offer II 068. 查找插入位置 | https://leetcode.cn/problems/N6YdxV/ | 二分查找模板 | 2022.07.08 | 2022.07.09 |
 | 剑指 Offer II 069. 山峰数组的顶部 | https://leetcode.cn/problems/B1IidL/ | 二分查找模板 | 2022.07.08 | 2022.07.09 |
 | 剑指 Offer II 070. 排序数组中只出现一次的数字 | https://leetcode.cn/problems/skFtm2/ | 二分查找进阶 | 2022.07.08 | 2022.07.09 |
+| 剑指 Offer 11. 旋转数组的最小数字 | https://leetcode.cn/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/ | 二分查找进阶 | 2022.07.20 |  |
+
+
+## 剑指offer暑期版
+|  title   | link  |type | date | review |
+|  ----  | ----  | ---- | --- | --- |
+| 剑指 Offer 20. 表示数值的字符串 | https://leetcode.cn/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/ | 模拟 | 2022.07.21 |  |
