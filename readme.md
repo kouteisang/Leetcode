@@ -204,10 +204,12 @@
 | 剑指 Offer II 068. 查找插入位置 | https://leetcode.cn/problems/N6YdxV/ | 二分查找模板 | 2022.07.08 | 2022.07.09 |
 | 剑指 Offer II 069. 山峰数组的顶部 | https://leetcode.cn/problems/B1IidL/ | 二分查找模板 | 2022.07.08 | 2022.07.09 |
 | 剑指 Offer II 070. 排序数组中只出现一次的数字 | https://leetcode.cn/problems/skFtm2/ | 二分查找进阶 | 2022.07.08 | 2022.07.09 |
-| 剑指 Offer 11. 旋转数组的最小数字 | https://leetcode.cn/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/ | 二分查找进阶 | 2022.07.20 |  |
 
 
 ## 剑指offer暑期版
 |  title   | link  |type | date | review |
 |  ----  | ----  | ---- | --- | --- |
 | 剑指 Offer 20. 表示数值的字符串 | https://leetcode.cn/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/ | 模拟 | 2022.07.21 |  |
+| 剑指 Offer 16. 数值的整数次方 | https://leetcode.cn/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/| 快速幂 | 2022.07.22 |  |
+| 剑指 Offer 17. 打印从1到最大的n位数 | https://leetcode.cn/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/ | dfs | 2022.07.22 |  |
+| 剑指 Offer 11. 旋转数组的最小数字 | https://leetcode.cn/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/ | 二分查找进阶 | 2022.07.20 |  |
