@@ -1,33 +1,50 @@
+ function Node(val, next, random) {
+     this.val = val;
+     this.next = next;
+     this.random = random;
+  };
+
+
 /**
- * @param {number} n
- * @return {number[]}
+ * @param {Node} head
+ * @return {Node}
  */
-let number = ['0','1','2','3','4','5','6','7','8','9']
-let ans = [];
-
-
-const dfs = (pos, n, t) => {
-    if(pos === n){
-        let temp = [...t];
-        while (temp[0] === '0'){
-            temp.shift();
-        }
-        if(temp.length > 0){
-            ans.push(parseInt(temp.join("")));
-        }
-        return;
+var copyRandomList = function(head) {
+    let tHead = new Node(0);
+    let nhead = head;
+    while(nhead != null){
+        let node = new Node(nhead.val);
+        node.next = nhead.next;
+        nhead.next = node;
+        nhead = node.next;
     }
-    for(let i = 0; i < 10; i ++){
-        t.push(number[i]);
-        dfs(pos+1, n, t);
-        t.pop();
+    nhead = head;
+    while(nhead != null){
+        nhead.next.random = nhead.random.next;
+        nhead = nhead.next.next;
     }
-}
+    nhead = head;
+    let ans = tHead;
+    while(nhead != null){
+        tHead.next = nhead.next;
+        tHead = tHead.next;
+        nhead.next = tHead.next;
+        nhead = nhead.next;
+    }
+    return ans.next;
 
-var printNumbers = function(n) {
-    ans = [];
-    dfs(0, n, []);
-    return ans;
 };
-printNumbers(3)
-console.log(ans)
+
+let one = new Node(1);
+let two = new Node(2);
+one.next = two;
+one.random = two;
+two.next = null;
+two.random = two;
+
+let res = copyRandomList(one);
+
+while (res != null){
+    console.log(res.val)
+    res = res.next;
+}
