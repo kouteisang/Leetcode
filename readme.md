@@ -209,9 +209,10 @@
 ## 剑指offer暑期版
 |  title   | link  |type | date | review |
 |  ----  | ----  | ---- | --- | --- |
-| 剑指 Offer 20. 表示数值的字符串 | https://leetcode.cn/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/ | 模拟 | 2022.07.21 |  |
-| 剑指 Offer 16. 数值的整数次方 | https://leetcode.cn/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/| 快速幂 | 2022.07.22 |  |
-| 剑指 Offer 17. 打印从1到最大的n位数 | https://leetcode.cn/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/ | dfs | 2022.07.22 |  |
-| 剑指 Offer 11. 旋转数组的最小数字 | https://leetcode.cn/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/ | 二分查找进阶 | 2022.07.20 |  |
+| 剑指 Offer 20. 表示数值的字符串 | https://leetcode.cn/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/ | 模拟 | 2022.07.21 | 2022.07.25 |
+| 剑指 Offer 16. 数值的整数次方 | https://leetcode.cn/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/| 快速幂 | 2022.07.22 | 2022.07.25 |
+| 剑指 Offer 17. 打印从1到最大的n位数 | https://leetcode.cn/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/ | dfs | 2022.07.22 | 2022.07.25 |
+| 剑指 Offer 11. 旋转数组的最小数字 | https://leetcode.cn/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/ | 二分查找进阶 | 2022.07.20 | 2022.07.25 |
 | 剑指 Offer 19. 正则表达式匹配 | https://leetcode.cn/problems/zheng-ze-biao-da-shi-pi-pei-lcof/ | 模拟 | 2022.07.23 |  |
 | 剑指 Offer 35. 复杂链表的复制 | https://leetcode.cn/problems/fu-za-lian-biao-de-fu-zhi-lcof/ | 链表 | 2022.07.23 |  |
+| 剑指 Offer 36. 二叉搜索树与双向链表 | https://leetcode.cn/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/ | 链表 | 2022.07.30 |  |

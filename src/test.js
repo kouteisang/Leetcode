@@ -1,50 +1,27 @@
- function Node(val, next, random) {
-     this.val = val;
-     this.next = next;
-     this.random = random;
-  };
-
-
 /**
- * @param {Node} head
- * @return {Node}
+ * @param {string} s
+ * @param {string} p
+ * @return {boolean}
  */
-var copyRandomList = function(head) {
-    let tHead = new Node(0);
-    let nhead = head;
-    while(nhead != null){
-        let node = new Node(nhead.val);
-        node.next = nhead.next;
-        nhead.next = node;
-        nhead = node.next;
+
+const dfs = (poss, posp, s, p) => {
+    if(poss === s.length){
+        if(posp === p.length){
+            return true;
+        }
     }
-    nhead = head;
-    while(nhead != null){
-        nhead.next.random = nhead.random.next;
-        nhead = nhead.next.next;
+    if(posp + 1 <= p.length - 1 && p[posp + 1] === '*'){
+        if(poss <= s.length-1 && (s[poss] === p[posp] || p[posp] === '.')) return (dfs(poss + 1, posp, s, p) || dfs(poss+1, posp + 2, s, p));
+        return dfs(poss, posp+2, s, p);
+    }else{
+        if(poss <= s.length-1 && posp <= p.length - 1 && (s[poss] === p[posp] || p[posp] === '.')) return dfs(poss + 1, posp+1, s, p);
+        if(poss <= s.length-1 && posp <= p.length - 1 && s[poss] !== p[posp]) return false;
+        if(poss <= s.length-1 && posp <= p.length - 1 && '.' !== p[posp]) return false;
     }
-    nhead = head;
-    let ans = tHead;
-    while(nhead != null){
-        tHead.next = nhead.next;
-        tHead = tHead.next;
-        nhead.next = tHead.next;
-        nhead = nhead.next;
-    }
-    return ans.next;
 
-};
-
-let one = new Node(1);
-let two = new Node(2);
-one.next = two;
-one.random = two;
-two.next = null;
-two.random = two;
-
-let res = copyRandomList(one);
-
-while (res != null){
-    console.log(res.val)
-    res = res.next;
 }
+
+var isMatch = function(s, p) {
+    return dfs(0, 0, s, p);
+};
+isMatch("bbbba", ".*a*a");
